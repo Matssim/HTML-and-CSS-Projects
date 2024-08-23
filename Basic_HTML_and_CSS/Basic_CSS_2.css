@@ -1,0 +1,15 @@
+h1	{
+	background-color: navy;
+	color: white;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: medium;
+	text-align: center;
+	}
+h2	{
+	color: black;
+	font-weight: bold;
+	font-size: medium;
+	text-align: center;
+	text-shadow: 2px 2px 5px gray;
+	}
