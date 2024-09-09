@@ -1,0 +1,32 @@
+/*BODY*/
+
+body{ /*Sets the standard background- and font-color for the webpage*/
+    background-color: lightblue;
+    color: darkblue;
+}
+
+.boldtext{ /*Creates a bolded text class for given elements to call (a paragraph in this case)*/
+    font-weight: bold;
+}
+
+img{ /*Styles logo to assignment specs*/
+    width: 600px;
+    height: 300px;
+    border: 2px dotted red;
+}
+
+/*VIDEO*/
+
+table{ /*Stretches table to full width of the browser screen*/
+    width: 100%; 
+}
+
+td{ /*Makes 3 equally wide columns, hence centering elements in the second column*/
+    width: 33%; 
+}
+
+iframe{ /*Styles video to assignment specs*/
+    width: 560;
+    height: 315;
+    border: 0; 
+}
