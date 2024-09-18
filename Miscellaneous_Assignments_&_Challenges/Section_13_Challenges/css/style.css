@@ -1,0 +1,159 @@
+/*NAVBAR*/
+
+.navbar{ /*Styles the navbar*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: -8px;
+    margin-left: -10px;
+    margin-right: -10px;
+    background-color: rgb(83, 83, 83);
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+
+a{ /*Specifically styles the navbar buttons*/
+    text-decoration: none;
+    color: rgb(164, 239, 245);
+    font-size: 20px;
+}
+
+a:hover{ /*Specifically styles hover effect for navbar buttons*/
+    color: white;
+}
+
+/*IMAGES*/
+
+.picture{ /*Sets a standard image format for the page*/ 
+    height: 720px;
+    width: 1280px;
+    border-radius: 20px;
+}
+
+.filter{ /*Increases the brightness of an image*/  
+    filter: brightness(125%);
+}
+
+.img-center{ /*Centers image*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{ /*Creates an element for the tunnel to the beach picture with text written over it*/
+    position: relative;
+    text-align: center;
+    color: rgb(164, 239, 245);
+}
+
+.bottom-center{ /*Positions the text in the container for the tunnel to the beach picture*/
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.container-img-overlay{ /*Creates a container to position the overlay ont op of the pool-side drink image*/
+    display: block;
+    position: relative;
+    width: 1280px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.overlay{ /*Styles the overlay for the pool-side drink picture*/
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: grey;
+    border-radius: 20px;
+}
+
+.overlay-text{ /*Styles and positions the text in the overlay effect*/
+    color: rgb(164, 239, 245);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    text-align: center;
+}
+
+.container-img-overlay:hover .overlay{ /*Activates the overlay when hovering over the pool-side-drink picture*/
+    opacity: 0.5;
+}
+
+/*TABLE*/
+
+th, td{ /*Styles the table cells*/
+    border: 1px solid;
+    padding: 10px;
+}
+
+th{ /*Table header*/
+    background-color: rgb(164, 239, 245);
+}
+
+table{ 
+    border-collapse: collapse; /*Merges the table's outer border with the outer border of the cells*/ 
+}
+
+.row{ /*Establishes a flexbox for the 2-column layout*/
+    display: flex;
+
+}
+
+.column{ /*Establishes the positioning of elements with the 2 columns*/
+    flex: 50%;
+    padding: 20px;
+}
+
+h2{ /*Styles the table section headers*/
+    color: rgb(83, 83, 83);
+}
+
+/*VIDEO*/
+
+.video-container{ /*Establishes a container for the viedo and text overlay to be positioned in relation to one another*/
+    position: relative;
+    display: block;
+    margin: auto;
+    z-index: 0;
+}
+
+video{ /*Postions video in the container*/
+    position: relative;
+    display: table;
+    margin: auto;
+}
+.video-text{ /*Styles and postions the video text overly*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 1;
+}
+
+/*GENERAL STYLING*/
+
+body{
+    overflow-x: hidden; /*Hides the horizontal scroll bar*/
+}
+
+p:hover{ /*Creates a hover effect for <p> elements*/
+    background-color: rgb(164, 239, 245);
+}
+
+/*FOOTER*/
+
+.footer-text{ /*Styles the footer*/
+    text-align: center;
+    font-weight: bold;
+    padding: 50px;
+}
