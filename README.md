@@ -6,7 +6,7 @@
     - <a href="#one_page">One-Page Website</a><br>
     - <a href="#pet_shop">The Pet Shop Website</a><br>
     - <a href="#simple_recipes">Simple Recipes Website</a><br>
-    - <a href="#academy_cinemas">Simple Recipes Website</a><br>
+    - <a href="#academy_cinemas">Academy Cinemas Website</a><br>
     - <a href="#misc">Miscellaneous Assignments and Challenges</a>
   </p>
 <!--Project descriptions-->
